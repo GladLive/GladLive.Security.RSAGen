@@ -1,9 +1,9 @@
 language: csharp
-solution: ./GladLive.ProxyLoadBalancer.sln
+solution: ./GladLive.Security.RSAGen.sln
 
 install:
   - nuget install NUnit.Runners -Version 3.0.1 -OutputDirectory tests/testrunner
-  - nuget restore GladLive.ProxyLoadBalancer.sln -ConfigFile NuGet.config
+  - nuget restore GladLive.Security.RSAGen.sln -ConfigFile NuGet.config
 
 notifications:
   slack: boomanationteam:sPQHUqEWA3wTaB9IKOSxe2f1
