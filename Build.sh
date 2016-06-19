@@ -1,1 +1,1 @@
-xbuild ./GladLive.ProxyLoadBalancer.sln /p:DebugSymbols=False
+xbuild ./GladLive.Security.RSAGen.sln /p:DebugSymbols=False
