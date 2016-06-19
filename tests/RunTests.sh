@@ -1,0 +1,1 @@
+mono ./testrunner/NUnit.Console.3.0.1/tools/nunit3-console.exe ./GladLive.Security.RSAGen.Lib.Tests/bin/Debug/GladLive.Security.RSAGen.Lib.Tests.dll
