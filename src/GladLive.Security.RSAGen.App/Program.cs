@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GladLive.Security.Common;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,7 +14,8 @@ namespace GladLive.Security.RSAGen.App
 			//Should contain cert name as first arg
 			ArgParser appArgs = new ArgParser(args);
 
-			//TODO: Import GladLive.Security.Common when 
+			//This will load the cert file with the provided path.
+			CertLoader loader = new CertLoader(appArgs.CertName);
 		}
 	}
 }
