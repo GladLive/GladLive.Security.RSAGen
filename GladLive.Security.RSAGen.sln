@@ -5,6 +5,14 @@ VisualStudioVersion = 14.0.25029.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GladLive.Security.RSAGen.App", "src\GladLive.Security.RSAGen.App\GladLive.Security.RSAGen.App.csproj", "{B68E139F-378C-42B3-9459-4181888ED739}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F63DBDD6-EFAA-4D83-9A9C-745488821BAD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{18FC64AC-3AEC-4E21-B477-05EA0EEF1146}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GladLive.Security.RSAGen.Lib", "src\GladLive.Security.RSAGen.Lib\GladLive.Security.RSAGen.Lib.csproj", "{CE004A52-14D6-4444-81C9-1EA0651E3B69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GladLive.Security.RSAGen.Lib.Tests", "tests\GladLive.Security.RSAGen.Lib.Tests\GladLive.Security.RSAGen.Lib.Tests.csproj", "{FE487CB5-9E66-4A86-97CF-C57A63E2A663}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +23,21 @@ Global
 		{B68E139F-378C-42B3-9459-4181888ED739}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B68E139F-378C-42B3-9459-4181888ED739}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B68E139F-378C-42B3-9459-4181888ED739}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE004A52-14D6-4444-81C9-1EA0651E3B69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE004A52-14D6-4444-81C9-1EA0651E3B69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE004A52-14D6-4444-81C9-1EA0651E3B69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE004A52-14D6-4444-81C9-1EA0651E3B69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE487CB5-9E66-4A86-97CF-C57A63E2A663}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE487CB5-9E66-4A86-97CF-C57A63E2A663}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE487CB5-9E66-4A86-97CF-C57A63E2A663}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE487CB5-9E66-4A86-97CF-C57A63E2A663}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B68E139F-378C-42B3-9459-4181888ED739} = {F63DBDD6-EFAA-4D83-9A9C-745488821BAD}
+		{CE004A52-14D6-4444-81C9-1EA0651E3B69} = {F63DBDD6-EFAA-4D83-9A9C-745488821BAD}
+		{FE487CB5-9E66-4A86-97CF-C57A63E2A663} = {18FC64AC-3AEC-4E21-B477-05EA0EEF1146}
 	EndGlobalSection
 EndGlobal

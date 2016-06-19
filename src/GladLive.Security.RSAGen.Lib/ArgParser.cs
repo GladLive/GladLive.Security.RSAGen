@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace GladLive.Security.RSAGen.App
+namespace GladLive.Security.RSAGen.Lib
 {
 	/// <summary>
 	/// Parses the incoming application arguments into a strong-typed form.
